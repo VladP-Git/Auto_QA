@@ -11,7 +11,7 @@ def driver():
     # Используем Firefox
     driver = webdriver.Firefox()
     driver.maximize_window()
-    yield driver
+    yield drivery
     driver.quit()
 
 

@@ -1,3 +1,1 @@
-# urls.py
-
-HOMEPAGE = "https://itcareerhub.de/ru"
+CAT_MEMES ="https://suninjuly.github.io/cats.html#"
