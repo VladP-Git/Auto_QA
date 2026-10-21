@@ -23,7 +23,7 @@ class BookerApi:
         """Получить детали бронирования по ID"""
         resp = requests.get(f"{self.base_url}/booking/{booking_id}")
         return resp
-
+#
     def create_booking(self, booking_data):
         """Создать новое бронирование"""
         headers = {"Content-Type": "application/json", "Accept": "application/json"}
