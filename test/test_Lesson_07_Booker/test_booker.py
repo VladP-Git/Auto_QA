@@ -169,14 +169,14 @@ def test_get_nonexistent_booking(api):
 
 
 
-    def test_create_pruf(api, sample_booking):
-        """Тест: создание бронирования с проверкой структуры ответа"""
-        created_booking = api.create_booking(sample_booking)
-        keys_std = ["firstname", "lastname", "totalprice", "depositpaid", "bookingdates", "additionalneeds"]
-        keys = list(created_booking['booking'].keys())
-        print(keys)
-        for key in keys_std:
-            assert key in keys, f"Ключ {key} отсутствует в ответе API"
+def test_create_pruf(api, sample_booking):
+    """Тест: создание бронирования с проверкой структуры ответа"""
+    created_booking = api.create_booking(sample_booking)
+    keys_std = ["firstname", "lastname", "totalprice", "depositpaid", "bookingdates", "additionalneeds"]
+    keys = list(created_booking['booking'].keys())
+    print(keys)
+    for key in keys_std:
+        assert key in keys, f"Ключ {key} отсутствует в ответе API"
 
 
 
