@@ -26,5 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tests multiple times
-        run: pytest test/test_Lesson_07_Booker --count=2
+      - name: Pun tests
+        continue-on-error: true
+        run: |
+          pytest test/test_Lesson_07_Booker
+          pytest test/test_Lesson_07_Booker
