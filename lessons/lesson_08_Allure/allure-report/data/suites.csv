@@ -1,8 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1985","test_get_booking","","2026-10-21","passed","2026-10-21","","test_booker","",""
-"","1093","создание брони","","2026-10-21","passed","2026-10-21","","test_booker","",""
-"Привет, ITCH!","3167","test_patch_booking","","2026-10-21","passed","2026-10-21","","test_booker","",""
-"","3316","test_update_booking","","2026-10-21","passed","2026-10-21","","test_booker","",""
-"","3967","test_delete_booking","","2026-10-21","passed","2026-10-21","","test_booker","",""
-"","1200","авторизация","","2026-10-21","passed","2026-10-21","","test_booker","",""
-"","0","получение всех броней 2","","2026-10-21","skipped","2026-10-21","","test_booker","",""
