@@ -33,7 +33,7 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
         run: |
           pytest test/test_Lesson_07_Booker
-          print("\n=== Ждем 5 секунд между запусками для обновления данных ===\n")
+          echo -e "\n=== Ждем 5 секунд между запусками для обновления данных ===\n"
           sleep 5
           pytest test/test_Lesson_07_Booker
 
