@@ -1,7 +1,8 @@
+import os
 import pytest
 from booker_api import BookerApi
 
-BASE_URL = "https://restful-booker.herokuapp.com"
+BASE_URL = os.getenv("BASE_URL")
 
 
 @pytest.fixture
