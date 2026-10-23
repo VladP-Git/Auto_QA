@@ -154,7 +154,7 @@ def test_get_nonexistent_booking(api):
     # max(existing_ids) возвращает наибольший ID.
     # Если список пустой, default=0 позволит использовать 0.
     # Прибавляем 100000, чтобы выбрать ID за пределами текущего диапазона.
-    nonexistent_id = max(existing_ids, default=0) + 12
+    nonexistent_id = max(existing_ids, default=0) + 13
 
     # Отправляем GET-запрос на получение бронирования по выбранному ID.
     # Ответ сохраняем в resp, чтобы проверить HTTP-статус.

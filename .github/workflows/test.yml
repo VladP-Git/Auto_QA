@@ -27,7 +27,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Pun tests
-        run: pytest test/test_Lesson_07_Booker
-
-      - name: Pun tests 2
-        run: pytest test/test_Lesson_07_Booker
+        run: |
+          pytest test/test_Lesson_07_Booker
+          pytest test/test_Lesson_07_Booker
