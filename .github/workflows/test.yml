@@ -38,8 +38,6 @@ jobs:
           pytest test/test_Lesson_07_Booker
 
       - name: Run stable automation tests
-        # Переменная подставится в систему и os.getenv() её успешно прочитает!
-        env:
-          BASE_URL: ${{ secrets.BASE_URL }}
+
         run:
           pytest test/test_Lesson_08_Booker
