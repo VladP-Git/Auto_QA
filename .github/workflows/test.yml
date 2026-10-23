@@ -34,3 +34,6 @@ jobs:
           sleep 5
           pytest test/test_Lesson_07_Booker
 
+      - name: Run stable automation tests
+        run:
+          pytest test/test_Lesson_08_Booker
